@@ -1,15 +1,18 @@
 package day5.employee;
 
-public class Student1 {
-    private int id;
-    private String name;
-    private String gender;
-    private int age;
-    public Student1(int id,String name,String gender,int age){
-        this.id=id;
-        this.name=name;
-        this.gender=gender;
-        this.age=age;
+public class Student {
+    protected int id;
+    protected String name;
+    protected String gender;
+    protected int age;
+
+    public Student() {}
+
+    public Student(int id, String name, String gender, int age) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
     }
 
     public int getId() {
@@ -46,7 +49,7 @@ public class Student1 {
 
     @Override
     public String toString() {
-        return "Student1{" +
+        return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", gender='" + gender + '\'' +
@@ -54,3 +57,4 @@ public class Student1 {
                 '}';
     }
 }
+
