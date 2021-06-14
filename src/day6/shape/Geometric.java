@@ -1,13 +1,13 @@
-package day6;
+package day6.shape;
 
 public class Geometric {
-    public String color ="White";
-    public String filled=null;
+    private String color ="Green";
+    private boolean filled=true;
         public Geometric(){
         }
-    public Geometric(String color,String filled){
+    public Geometric(String color,boolean filled){
     this.color=color;
-    filled=filled;
+    this.filled=filled;
         }
 
     public String getColor() {
@@ -18,11 +18,11 @@ public class Geometric {
         this.color = color;
     }
 
-    public String getFilled() {
+    public boolean getFilled() {
         return filled;
     }
 
-    public void setFilled(String filled) {
+    public void setFilled(boolean filled) {
         this.filled = filled;
     }
 
