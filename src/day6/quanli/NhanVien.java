@@ -60,12 +60,12 @@ public class NhanVien {
 
     @Override
     public String toString() {
-        return "NhanVien{" +
-                "id=" + id +
+        return
+                "{Nhân Viên : id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
                 ", phone=" + phone +
-                ", mail='" + mail + '\'' +
-                '}';
+                ", mail='" + mail + '\''
+                ;
     }
 }

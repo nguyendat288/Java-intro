@@ -51,7 +51,7 @@ public class NhanVienFullTime extends NhanVien{
     @Override
     public String toString() {
         return super.toString()
-                +"NhanVienFullTime{" +
+                +" " +
                 "tienthuong=" + tienthuong +
                 ", tienphat=" + tienphat +
                 ", luongcung=" + luongcung +

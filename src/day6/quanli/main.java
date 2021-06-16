@@ -23,7 +23,7 @@ public class main {
         long tienphat=sc.nextLong();
         System.out.println(" lương cứng ");
         long luongcung=sc.nextLong();
-        NhanVienFullTime nv1=new NhanVienFullTime(id,name,age,phone,mail, tienthuong,tienphat,luongcung);
+        NhanVien nv1=new NhanVienFullTime(id,name,age,phone,mail, tienthuong,tienphat,luongcung);
         System.out.println(nv1.toString());
     }
 }
