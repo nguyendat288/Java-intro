@@ -122,7 +122,10 @@ public class Manager{
             list.toString();
         }
     }
-
+public static void sort(){
+        SortCanBo sortCanBo=new SortCanBo();
+        list.sort(sortCanBo);
+}
     public static void findNganh() {
         System.out.println("Nhap nganh: ");
         String Nganh = sc.nextLine();

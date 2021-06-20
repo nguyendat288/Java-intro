@@ -34,7 +34,7 @@ public class Main {
                 Manager.hienThi();
                 break;
             case 6:
-
+              Manager.sort();
                 break;
             case 7:
                 Manager.findNganh();
