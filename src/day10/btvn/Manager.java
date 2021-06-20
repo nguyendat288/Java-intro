@@ -28,7 +28,17 @@ public class Manager{
             }
         }
     }
-
+//  public static String add(CanBo canBo){
+//      System.out.println("Nhap Ho ten: ");
+//      String name = sc.nextLine();
+//      System.out.println("Nhap Nam sinh: ");
+//      int age = Integer.parseInt(sc.nextLine());
+//      System.out.println("Nhap Gioi tinh: ");
+//      String gender = sc.nextLine();
+//      System.out.println("Nhap Dia chi: ");
+//      String address = sc.nextLine();
+//
+//  }
     public static void addNhanVien() {
         System.out.println("Nhap Ho ten: ");
         String name = sc.nextLine();
@@ -112,6 +122,7 @@ public class Manager{
             list.toString();
         }
     }
+
     public static void findNganh() {
         System.out.println("Nhap nganh: ");
         String Nganh = sc.nextLine();
