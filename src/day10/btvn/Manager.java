@@ -1,5 +1,6 @@
 package day10.btvn;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 public class Manager{
     static Scanner sc = new Scanner(System.in);
@@ -25,7 +26,9 @@ public class Manager{
                     break;
                 default:
                     break;
-            }
+                case 4 :
+                    break;
+            }if (x==4) break;
         }
     }
 //  public static String add(CanBo canBo){
@@ -119,12 +122,13 @@ public class Manager{
     }
     public static void hienThi() {
         for (CanBo x: list) {
-            list.toString();
+            System.out.println(x);
         }
     }
 public static void sort(){
-        SortCanBo sortCanBo=new SortCanBo();
-        list.sort(sortCanBo);
+        list.sort(Comparator.comparing(o->((CanBo)o).getName()).thenComparing(o->((CanBo)o).getAge()).reversed());
+//        SortCanBo sortCanBo=new SortCanBo();
+//        list.sort(sortCanBo);
 }
     public static void findNganh() {
         System.out.println("Nhap nganh: ");

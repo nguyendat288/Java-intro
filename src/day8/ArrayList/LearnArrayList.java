@@ -19,6 +19,5 @@ public class LearnArrayList {
         Animal[] arr =new Animal[5];
         animals.toArray(arr);
         System.out.println("Arraylist has size "+arr.length);
-
     }
 }
