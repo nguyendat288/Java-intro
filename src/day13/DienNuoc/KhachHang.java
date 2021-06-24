@@ -1,4 +1,4 @@
-package day13;
+package day13.DienNuoc;
 
 public class KhachHang {
     private int id;

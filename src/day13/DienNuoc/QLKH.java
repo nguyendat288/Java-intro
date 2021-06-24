@@ -1,13 +1,11 @@
-package day13;
+package day13.DienNuoc;
 
-import day10.btvn.CanBo;
-import day10.btvn.CongNhan;
-import day10.btvn.KySu;
-import day10.btvn.NhanVien;
+import day13.DienNuoc.KhachHang;
+import day13.DienNuoc.KhachHangNuocNgoai;
+import day13.DienNuoc.KhachHangVietNam;
 
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 import java.util.Scanner;
 
 public class QLKH {

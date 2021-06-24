@@ -1,4 +1,6 @@
-package day13;
+package day13.DienNuoc;
+
+import day13.DienNuoc.KhachHang;
 
 public class KhachHangNuocNgoai extends KhachHang {
     private String quoctich;

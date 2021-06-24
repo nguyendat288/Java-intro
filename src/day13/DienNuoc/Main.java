@@ -1,5 +1,5 @@
-package day13;
-import java.util.ArrayList;
+package day13.DienNuoc;
+
 import java.util.Scanner;
 
 public class Main {

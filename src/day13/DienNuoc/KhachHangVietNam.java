@@ -1,6 +1,8 @@
-package day13;
+package day13.DienNuoc;
 
-public class KhachHangVietNam extends KhachHang{
+import day13.DienNuoc.KhachHang;
+
+public class KhachHangVietNam extends KhachHang {
     private int dinhmuc;
 
     public KhachHangVietNam() {
