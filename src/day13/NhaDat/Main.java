@@ -14,7 +14,7 @@ import java.util.Scanner;
                 System.out.println("6. Sap xep giao dich");
                 System.out.println("7. Hien thi");
                 System.out.println("8. Thoat ra");
-                System.out.println("Moi ban chon: ");
+                System.out.println("Enter your choice : ");
                 int choice = Integer.parseInt(sc.nextLine());
 
                 switch (choice) {

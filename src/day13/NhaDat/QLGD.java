@@ -1,6 +1,8 @@
 package day13.NhaDat;
 
 
+    import day13.DienNuoc.KhachHang;
+
     import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -32,8 +34,8 @@ public class QLGD {
             System.out.println("Nhap dien tich: ");
             double dienTich = Double.parseDouble(sc.nextLine());
 
-            Dat giaoDichDat = new Dat(maGiaoDich, ngayGiaoDich, donGia, loai, dienTich);
-            return giaoDichDat;
+            Dat dat = new Dat(maGiaoDich, ngayGiaoDich, donGia, loai, dienTich);
+            return dat;
 
         }
 
@@ -52,8 +54,8 @@ public class QLGD {
             String diaChi = sc.nextLine();
 
 
-            Nha giaoDichNha = new Nha(maGiaoDich, ngayGiaoDich, donGia, loai, dienTich, diaChi);
-            return giaoDichNha;
+            Nha nha = new Nha(maGiaoDich, ngayGiaoDich, donGia, loai, dienTich, diaChi);
+            return nha;
         }
 
         public static void tongSoluong(int choice1) {
@@ -89,13 +91,8 @@ public class QLGD {
         }
 
         public static void sapXep() {
-            Collections.sort(list, new Comparator<GiaoDich>() {
-                @Override
-                public int compare(GiaoDich o1, GiaoDich o2) {
-                    if (o1.getMaGiaoDich() > o2.getMaGiaoDich()) return 1;
-                    else return -1;
-                }
-            });
+
+            list.sort(Comparator.comparing(o->((GiaoDich)o).getMaGiaoDich()));
         }
 
         public static void timGiaoDich() {
