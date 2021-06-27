@@ -21,6 +21,9 @@ public class NhanVienFullTime extends NhanVien{
         this.luongcung = luongcung;
     }
 
+    public NhanVienFullTime(String name, int age, String gender, String phone, String email, int salary) {
+    }
+
     public long getTienthuong() {
         return tienthuong;
     }
