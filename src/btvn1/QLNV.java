@@ -1,10 +1,4 @@
 package btvn1;
-
-import day13.DienNuoc.KhachHang;
-import day13.DienNuoc.KhachHangNuocNgoai;
-import day13.DienNuoc.KhachHangVietNam;
-import day6.quanli.NhanVienFullTime;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
